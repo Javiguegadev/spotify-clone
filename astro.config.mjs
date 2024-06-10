@@ -8,5 +8,12 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [tailwind(), svelte(), react()],
   output: 'server',
-  adapter: netlify(),
+  adapter: netlify({
+    edgeMiddleware: true
+  }),
+  build: {
+    rollupOptions: {
+      external: ['sharp'],
+    },
+  },
 });

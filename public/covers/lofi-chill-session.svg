@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Lo-Fi Chill Session">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21c872"/>
+      <stop offset="1" stop-color="#14532d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.25" r="0.8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="640" fill="url(#bg)"/>
+  <rect width="640" height="640" fill="url(#glow)"/>
+  <g transform="translate(320 300)">
+    <circle r="170" fill="#111" opacity="0.92"/>
+    <circle r="150" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+    <circle r="125" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+    <circle r="100" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+    <circle r="58" fill="#21c872"/>
+    <circle r="8" fill="#111"/>
+  </g>
+  <text x="320" y="560" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Lo-Fi Chill Session</text>
+  <text x="320" y="602" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#ffffff" opacity="0.75">Kupla · Blue Fox</text>
+</svg>

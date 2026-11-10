@@ -1,7 +1,8 @@
 {
-  "name": "clon-spotify",
+  "name": "spotify-clone",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Clon del reproductor web de Spotify con Astro, React, Svelte y Tailwind CSS",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

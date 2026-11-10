@@ -16,7 +16,7 @@ export const playlists: Playlist[] = [
     title: "Chill Lo-Fi Music",
     color: colors.yellow,
     cover:
-      "https://vinyl.lofirecords.com/cdn/shop/products/VINYL_MORNING_COFFEE_4-min.png?v=1680526353",
+      "/covers/chill-lofi-music.svg",
     artists: ["NoSpirit", "Casiio"],
   },
   {
@@ -25,7 +25,7 @@ export const playlists: Playlist[] = [
     title: "Lo-Fi Chill Session",
     color: colors.green,
     cover:
-      "https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187",
+      "/covers/lofi-chill-session.svg",
     artists: ["Kupla", "Blue Fox"],
   },
   {
@@ -97,7 +97,7 @@ export const songs: Song[] = [
     "id": 1,
     "albumId": 1,
     "title": "Moonlit Walk",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/products/VINYL_MORNING_COFFEE_4-min.png?v=1680526353`,
+    "image": `/covers/chill-lofi-music.svg`,
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "3:12"
@@ -106,7 +106,7 @@ export const songs: Song[] = [
     "id": 2,
     "albumId": 1,
     "title": "Coffee Daze",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/products/VINYL_MORNING_COFFEE_4-min.png?v=1680526353`,
+    "image": `/covers/chill-lofi-music.svg`,
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "4:07"
@@ -115,7 +115,7 @@ export const songs: Song[] = [
     "id": 3,
     "albumId": 1,
     "title": "Skyline Serenade",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/products/VINYL_MORNING_COFFEE_4-min.png?v=1680526353`,
+    "image": `/covers/chill-lofi-music.svg`,
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "3:50"
@@ -124,7 +124,7 @@ export const songs: Song[] = [
     "id": 4,
     "albumId": 1,
     "title": "Urban Echoes",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/products/VINYL_MORNING_COFFEE_4-min.png?v=1680526353`,
+    "image": `/covers/chill-lofi-music.svg`,
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "3:30"
@@ -133,7 +133,7 @@ export const songs: Song[] = [
     "id": 5,
     "albumId": 1,
     "title": "Night's End",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/products/VINYL_MORNING_COFFEE_4-min.png?v=1680526353`,
+    "image": `/covers/chill-lofi-music.svg`,
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "4:20"
@@ -142,7 +142,7 @@ export const songs: Song[] = [
     "id": 1,
     "albumId": 2,
     "title": "Silent Rain",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187`,
+    "image": `/covers/lofi-chill-session.svg`,
     "artists": ["Urban Nocturne"],
     "album": "Midnight Tales",
     "duration": "3:40"
@@ -151,7 +151,7 @@ export const songs: Song[] = [
     "id": 2,
     "albumId": 2,
     "title": "Lost Pages",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187`,
+    "image": `/covers/lofi-chill-session.svg`,
     "artists": ["Urban Nocturne"],
     "album": "Midnight Tales",
     "duration": "3:20"
@@ -160,7 +160,7 @@ export const songs: Song[] = [
     "id": 3,
     "albumId": 2,
     "title": "Midnight Tales",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187`,
+    "image": `/covers/lofi-chill-session.svg`,
     "artists": ["Urban Nocturne"],
     "album": "Midnight Tales",
     "duration": "3:50"
@@ -169,7 +169,7 @@ export const songs: Song[] = [
     "id": 4,
     "albumId": 2,
     "title": "City Lights",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187`,
+    "image": `/covers/lofi-chill-session.svg`,
     "artists": ["Urban Nocturne"],
     "album": "Midnight Tales",
     "duration": "3:30"
@@ -178,7 +178,7 @@ export const songs: Song[] = [
     "id": 5,
     "albumId": 2,
     "title": "Night Drive",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187`,
+    "image": `/covers/lofi-chill-session.svg`,
     "artists": ["Urban Nocturne"],
     "album": "Midnight Tales",
     "duration": "4:20"
